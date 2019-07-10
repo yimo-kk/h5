@@ -1,0 +1,22 @@
+.yellow-gradient-btn{
+    width:276px;
+    height:45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(90deg,rgba(255,155,73,1),rgba(255,196,76,1));
+    border-radius:45px;
+    font-size: 18px;
+    color: #fff;
+    &:active{
+        background:linear-gradient(90deg,rgba(255,196,76,1), rgba(255,155,73,1));  
+    }
+}
+.to-back{
+    width: 10px;
+    height: 17px;
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    padding: 10px 15px;
+}
